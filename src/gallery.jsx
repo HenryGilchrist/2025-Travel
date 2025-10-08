@@ -57,7 +57,6 @@ function Gallery(){
         trigger: triggerElement,
         start: "top bottom",
         end: "bottom top",
-        markers: true,
         scrub: 1
       }
     })
@@ -75,7 +74,6 @@ function Gallery(){
       trigger: triggerElement,
       start: "top bottom",
       end: "bottom top",
-      markers: true,
       scrub: 0.7
     }
   })
@@ -95,7 +93,6 @@ function Gallery(){
           trigger: triggerElement,
           start: "top bottom",
           end: "bottom top",
-          markers: true,
           scrub: 1.5
         }
       })
@@ -122,7 +119,6 @@ let tlSections = gsap.timeline({
       trigger: triggerElement,
       start: "top 35%",
       end: "bottom 35%",
-      markers: true,
       onEnter: () => {
         document.querySelectorAll('.location-bg').forEach(el => el.classList.remove('is-active'));
         targetElement.classList.add('is-active');
@@ -140,7 +136,6 @@ let tlSections = gsap.timeline({
       start: "20% top",
       end: "bottom 40%",
       immediateRender: false,
-      markers: true,
       scrub: 1
     }
   });

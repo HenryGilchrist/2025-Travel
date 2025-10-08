@@ -31,8 +31,7 @@ function Intro(){
                     trigger: locationsRef.current,
                     start: "top-=150px bottom",
                     end: "top-=150px 15%",
-                    scrub: 0.5,
-                    markers: true
+                    scrub: 0.5
                 }
         });
 
@@ -93,7 +92,6 @@ function Intro(){
                 scrollTrigger: {
                     trigger: e,
                     scrub: true,
-                    markers: true,
                     start: "top 30%",
                     end: "bottom 30%",
                 },
@@ -111,8 +109,7 @@ function Intro(){
                 start: "top top",
                 end: "60% top",
                 pin: true,
-                scrub: 1,
-                markers: true
+                scrub: 1
             }
         })
 
@@ -139,8 +136,7 @@ function Intro(){
                 start: "top top",
                 end: "60% top",
                 
-                scrub: 1,
-                markers: true
+                scrub: 1
             }
         })
 
